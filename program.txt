@@ -1,0 +1,116 @@
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="resume.aspx.vb" Inherits="ResumeVB._resume" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Resume Form</title>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1237px;
+            height: 46px;
+            position: absolute;
+            left: 21px;
+            top: 1px;
+            margin-top: 15px;
+        }
+        #TextArea1 {
+            width: 458px;
+            z-index: 1;
+            left: 292px;
+            top: 212px;
+            position: absolute;
+            height: 44px;
+            right: 583px;
+        }
+    </style>
+</head>
+<body style="width: 1823px">
+    <body bgcolor="#AAC6DE" style="width: 1823px"></body>
+    <form id="form1" runat="server">
+        <div style="z-index: 1">
+            <asp:Label ID="Label" runat="server" Text="RESUME" Font-Bold="True" Font-Size="25pt" style="z-index: 1; left: 583px; top: 0px; position: absolute; width: 1278px; height: 46px; margin-left: 0px;" Font-Italic="False" Font-Names="Bahnschrift" Font-Overline="False" Font-Underline="True"></asp:Label>
+            
+            <asp:Label ID="Label12" runat="server" Text="OUTPUT" style="position: absolute; z-index: 1; left: 1278px; top: 68px; height: 44px; width: 118px" Font-Bold="True"></asp:Label>
+            <asp:Label ID="Label13" runat="server" style="z-index: 1; left: 1280px; top: 124px; position: absolute; width: 416px;" ></asp:Label>
+            <asp:Label ID="Label14" runat="server" style="z-index: 1; left: 1280px; top: 160px; position: absolute; height: 30px; width: 440px;" ></asp:Label>
+            <asp:Label ID="Label15" runat="server" style="z-index: 1; left: 1280px; top: 186px; position: absolute; height: 27px; width: 417px; margin-top: 8px;" ></asp:Label>
+            <asp:Label ID="Label16" runat="server" style="z-index: 1; left: 1280px; top: 228px; position: absolute; width: 258px;" ></asp:Label>
+            <asp:Label ID="Label17" runat="server" style="z-index: 1; left: 1280px; top: 264px; position: absolute; width: 350px;" ></asp:Label>
+              <asp:Label ID="Label18" runat="server" style="z-index: 1; left: 1280px; top: 300px; position: absolute; width: 340px;" ></asp:Label> 
+              <asp:Label ID="Label19" runat="server" style="z-index: 1; left: 1280px; top: 335px; position: absolute; width: 446px;" ></asp:Label>
+               <asp:Label ID="Label20" runat="server" style="z-index: 1; left: 1280px; top: 369px; position: absolute; width: 329px;" ></asp:Label>
+        <asp:Label ID="Label21" runat="server" style="z-index: 1; left: 1280px; top: 402px; position: absolute; width: 422px;" ></asp:Label>
+            <asp:Label ID="Label22" runat="server" style="z-index: 1; left: 1280px; top: 435px; position: absolute; width: 422px;" ></asp:Label><p>
+            <asp:RadioButton ID="Male" runat="server" style="z-index: 1; left: 292px; top: 183px; position: absolute; width: 88px; bottom: 293px; height: 30px; " Font-Size="12pt" Text="MALE" GroupName="Gender" Font-Bold="True" Font-Names="Bahnschrift"/>
+            </p>
+            
+           <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Size="15pt" style="z-index: 1; left: 55px; top: 80px; position: absolute; height: 35px; width: 457px; bottom: 127px;" Font-Names="Bahnschrift"></asp:Label>
+            <asp:Label ID="Label8" runat="server" Text="Education :" Font-Bold="True" style="z-index: 1; left: 118px; top: 392px; position: absolute; width: 150px; height: 31px; margin-top: 2px; right: 1141px;" Font-Size="14pt" Font-Names="Bahnschrift"></asp:Label>
+            <br />
+            <span class="auto-style1">
+            <asp:Label ID="Label1" runat="server" Text="Name :" style="z-index: 1; left: 98px; top: 111px; position: absolute; height: 26px; width: 143px; margin-top: 12px; right: 996px;" Font-Bold="True" Font-Size="14pt" Font-Names="Bahnschrift"></asp:Label>
+            </span>
+            <br />
+            &nbsp;<span class="auto-style1"><asp:Image ID="Image1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Outset" ImageUrl="~/219990.png" style="z-index: 1; left: 903px; top: 122px; position: absolute; width: 214px; height: 200px; margin-left: 0px; margin-bottom: 15px;" />
+            <asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; top: 118px; position: absolute; width: 115px; height: 30px; right: 375px;" BorderStyle="Ridge" BorderWidth="1px" BorderColor="Black" ></asp:TextBox>
+        
+   
+        <p>
+            &nbsp;</p>
+            <asp:Label ID="Label3" runat="server" Text="DOB :" style="z-index: 1; left: 650px; top: 125px; position: absolute; height: 32px; width: 86px; right: 487px; margin-left: 7px; margin-right: 7px;" Font-Bold="True" Font-Size="14pt" Font-Names="Bahnschrift"></asp:Label>
+            </span>
+            <br />
+            <asp:TextBox ID="TextBox1" runat="server" style="position: absolute; z-index: 1; left: 291px; top: 136px; width: 204px; height: 30px; right: 842px;" BorderStyle="Ridge" BorderWidth="1px" BorderColor="Black" ></asp:TextBox>
+            <asp:CheckBox ID="NO" runat="server" style="z-index: 1; left: 387px; top: 444px; position: absolute; width: 63px; height: 34px" Font-Size="12pt" Text="NO" Font-Bold="True" Font-Names="Bahnschrift" />
+            <asp:Label ID="Label10" runat="server" Text="Previous Experience :" Font-Bold="True" style="z-index: 1; left: 118px; top: 441px; position: absolute; height: 37px; width: 274px; right: 915px;" Font-Size="14pt" Font-Names="Bahnschrift"></asp:Label>
+        
+   
+        <asp:Label ID="Label9" runat="server" Text="Hobbies :" Font-Bold="True" style="z-index: 1; top: 393px; position: absolute; height: 32px; width: 119px; left: 452px; right: 782px;" Font-Size="14pt" Font-Names="Bahnschrift"></asp:Label>
+  
+            <span class="auto-style1">
+            <asp:Label ID="Label4" runat="server" Text="Gender :" Font-Bold="True" style="z-index: 1;  left: 97px; top: 168px; position: absolute; height: 26px; width: 119px; right: 1021px;" Font-Size="14pt" Font-Names="Bahnschrift"></asp:Label>
+  
+            <asp:RadioButton ID="Female" runat="server" style="z-index: 1; top: 168px; position: absolute; width: 117px; height: 32px; bottom: -154px; right: 756px;" Font-Size="12pt" Text="FEMALE" GroupName="Gender" Font-Bold="True" Font-Names="Bahnschrift" />
+  
+            </span>
+  
+        <p>
+            <asp:RadioButton ID="Other" runat="server" style="z-index: 1; left: 508px; top: 184px; position: absolute; height: 28px; width: 94px" Font-Size="12pt" Text="OTHER" Checked="True" GroupName="Gender" Font-Bold="True" Font-Names="Bahnschrift"  />
+       
+            </p>
+        <asp:ListBox ID="ListBox1" runat="server" style="z-index: 1; left: 552px; top: 377px; position: absolute; width: 167px; height: 25px; margin-top: 16px;"  Font-Size="12pt" Height="25px" Width="132px">
+            <asp:ListItem>(Select)</asp:ListItem>
+            <asp:ListItem>Dance</asp:ListItem>
+            <asp:ListItem>Theatre</asp:ListItem>
+            <asp:ListItem>Art</asp:ListItem>
+            <asp:ListItem>Sports</asp:ListItem>
+            <asp:ListItem>Music</asp:ListItem>
+        </asp:ListBox>
+  
+        </div>
+            <asp:Label ID="Label5" runat="server" Text="Address :" style="z-index: 1; left: 118px; top: 234px; position: absolute; width: 128px; height: 29px; bottom: 115px; margin-bottom: 5px;" Font-Bold="True" Font-Size="14pt" Font-Names="Bahnschrift"></asp:Label>
+        <asp:TextBox ID="TextBox4" runat="server" BorderStyle="Ridge" BorderWidth="1px" style="z-index: 1; left: 291px; top: 233px; position: absolute; width: 509px; height: 30px"></asp:TextBox><p>
+            <asp:Button ID="Button1" runat="server" Text="Submit" BackColor="#3E72BF" BorderColor="#000066" BorderWidth="2px" Font-Size="13pt" style="margin-left: 810px; margin-right: 0px; margin-top: 0px; z-index: 1; left: 138px; top: 401px; position: absolute; height: 49px; width: 178px; right: 283px; margin-bottom: 96px;" Font-Bold="True" ForeColor="White" Font-Names="Bahnschrift" />
+        <asp:TextBox ID="TextBox6" runat="server" BorderColor="Black" BorderStyle="Solid" BorderWidth="1px" style="z-index: 1; left: 292px; top: 340px; position: absolute; width: 314px; height: 30px; margin-top: 0px; margin-bottom: 0px"></asp:TextBox>
+            </p>
+        <p>
+            <asp:TextBox ID="TextBox5" runat="server" style="z-index: 1; left: 83px; top: 237px; position: absolute; height: 30px; margin-left: 209px; margin-bottom: 0px; right: 931px; margin-top: 47px;" BorderStyle="Ridge" BorderWidth="1px" BorderColor="Black" ></asp:TextBox>
+            <asp:Label ID="Label2" runat="server" Text="Age :" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="14pt" style="z-index: 1; left: 530px; top: 140px; position: absolute; right: 685px; height: 37px;"></asp:Label>
+            <asp:TextBox ID="TextBox2" runat="server" BorderColor="Black" BorderStyle="Ridge" BorderWidth="1px" style="z-index: 1; left: 586px; top: 136px; position: absolute; height: 30px; width: 62px"></asp:TextBox>
+        </p>
+            <asp:Label ID="Label6" runat="server" Text="Contact No :" style="z-index: 1; left: 118px; top: 288px; position: absolute; height: 38px; width: 154px; bottom: 229px; margin-right: 6px; right: 1032px; margin-bottom: 0px;" ForeColor="Black" Font-Bold="True" Font-Size="14pt" Font-Names="Bahnschrift"></asp:Label>
+        <asp:Label ID="Label7" runat="server" Text="Mail ID :" Font-Bold="True" Font-Size="14pt" style="z-index: 1; left: 118px; top: 335px; position: absolute; width: 136px; margin-top: 7px; height: 28px; right: 1054px;" Font-Names="Bahnschrift"></asp:Label>
+        <asp:DropDownList ID="DropDownList1" runat="server" style="z-index: 1; left: 292px; top: 391px; position: absolute; height: 25px; width: 132px; margin-bottom: 0px; right: 913px;" Font-Size="12pt" Height="25px" Width="132px" >
+            <asp:ListItem Value="1">10TH</asp:ListItem>
+            <asp:ListItem Value="2">12TH</asp:ListItem>
+            <asp:ListItem Value="3">UG</asp:ListItem>
+            <asp:ListItem Value="4">PG</asp:ListItem>
+            </asp:DropDownList>
+        <p>
+            &nbsp;</p>
+            <asp:CheckBox ID="YES" runat="server" style="z-index: 1; left: 317px; top: 443px; position: absolute; width: 82px; height: 31px" Font-Size="12pt" Text="YES" Font-Bold="True" Font-Names="Bahnschrift"   />
+    </form>
+</body>
+</html>
+
